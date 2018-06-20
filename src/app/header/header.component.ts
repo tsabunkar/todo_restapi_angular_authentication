@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  fullImagePath:  string = '/assets/images/tlogo.jpg' ;
+  imageWidth : number = 50;
+  
   constructor() { }
 
   ngOnInit() {
